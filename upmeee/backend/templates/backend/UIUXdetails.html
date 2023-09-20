@@ -1,0 +1,2258 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+
+
+{% block title %} UI and UX Design Services |  UpMeee {% endblock title %}
+
+
+{% block content %}
+
+
+
+
+<section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                <div class="container-xxl">
+                    <div class="row">
+
+
+                            <div class="col-xl-8">
+                                <!--Animated Block-->
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js"></script>
+
+                                <div class="ptf-animated-block">
+                                    <div id="lottie-animation"></div>
+                                </div>
+                                <style>
+                                    #lottie-animation {
+                                      width: 570px; /* Adjust the width to your desired size */
+                                      height: 210px; /* Adjust the height to your desired size */
+                                    }
+                                  </style>
+                                <script>
+                                    // Replace 'your-animation.json' with the path to your Lottie animation file.
+                                    var animation = lottie.loadAnimation({
+                                      container: document.getElementById('lottie-animation'),
+                                      renderer: 'svg', // or 'canvas' for canvas rendering
+                                      loop: true,      // set to true if you want the animation to loop
+                                      autoplay: true,  // set to true if you want the animation to play automatically
+                                      path: 'https://lottie.host/c9b8e18f-e810-4228-af62-f0a93540d869/6iwhA3mqvd.json' // path to your Lottie animation JSON file
+                                    });
+                                  </script>
+                              <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                              <div class="col-xl-8">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block">
+                                    <h1 class="large-heading">Hire an <br>UI/UX & Graphic Designer</h1>
+                                    <!--Spacer-->
+                                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 2.5rem;"></div>
+                                    <!--Social Icon--><a class="ptf-social-icon ptf-social-icon--style-3 freelancer" href="https://www.freelancer.com/u/whatznot" target="_blank"><i class="socicon-freelancer"></i></a>
+                                                                <!--Social Icon--><a class="ptf-social-icon ptf-social-icon--style-3 upwork" href="https://www.upwork.com/freelancers/whatznot" target="_blank"><i class="socicon-upwork"></i></a>
+                                                                <!--Social Icon--><a class="ptf-social-icon ptf-social-icon--style-3 git" href="https://github.com/hellopritammandal" target="_blank"><i class="socicon-github"></i></a>
+                                                                <!--Social Icon--><a class="ptf-social-icon ptf-social-icon--style-3 facebook" href="https://www.facebook.com/whatznot" target="_blank"><i class="socicon-facebook"></i></a>
+
+                                                                <!--Social Icon--><a class="ptf-social-icon ptf-social-icon--style-3 linkedin" href="https://www.linkedin.com/company/whatznot" target="_blank"><i class="socicon-linkedin"></i></a>
+                                                            </div>
+
+
+
+
+
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 2.1875rem;"></div>
+
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-lg: 4.375rem; --ptf-md: 2.1875rem;"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="300">
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 3.125rem;"></div>
+  <form action="" method="post">
+    {% csrf_token %}
+
+
+    <div class="ptf-form-group">
+        <label for="id_phone_number" data-number="01">What’s your <a class="has-accent-1">Phone Number ?</a><br> ( Add Country Code )  </label>
+        <input class="is-large" type="tel" name="phone_number" id="id_phone_number" required>
+    </div>
+
+
+
+    <div class="ptf-form-group">
+        <label for="id_budget" data-number="02">What have you <a class="has-accent-1">Budgeted </a>for this project?</label>
+        <select class="is-large" name="budget" id="id_budget" required>
+            <option value="NoIdea">I Don't Have Any Idea </option>
+            <option value="3000-10000">₹ 3000 - ₹ 10000</option>
+            <option value="10000-40000">₹ 10000 - ₹ 400000</option>
+            <option value="40000-100000">₹ 40000 - ₹ 100000</option>
+            <option value="100000up">₹ 100000 and More </option>
+
+
+        </select>
+    </div>
+
+    <!-- Spacer -->
+    <div class="ptf-spacer" style="--ptf-xxl: 2.5rem;"></div>
+
+    <div class="ptf-form-group">
+        <label class="ptf-checkbox">
+            <input class="d-none" type="checkbox" name="newsletter_subscription" id="id_newsletter_subscription">
+            <span class="ptf-checkbox__checkmark"></span>I agree to receive occasional UpMeee's newsletters containing news &amp; advice on creating personal and business progress via digital tech.
+        </label>
+    </div>
+
+    <!-- Spacer -->
+    <div class="ptf-spacer" style="--ptf-xxl: 5.625rem;"></div>
+
+    <button class="ptf-submit-button" type="submit">Submit<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 17 17">
+            <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"></path>
+        </svg>
+    </button>
+</form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3.25rem; --ptf-md: 3.125rem;"></div>
+            </section>
+
+
+
+
+    <!--Main-->
+    <main class="ptf-main">
+        <!--Single Post-->
+        <article class="ptf-single-post">
+            <!----------block1------------>
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="col-xl-9">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                <h1 class="large-heading">UI/UX & Graphic Design Services</h1>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 2.5rem;"></div>
+                                <p class="fz-18">Welcome to Our Graphic Design & UI/UX Services. We are passionate about creating interesting, user-centric experiences at UpMeee . To bring your idea to life, our professional design team combines innovation, creativity, and a thorough understanding of user psychology. We're here to boost your digital presence and make a lasting impact, whether it's developing intuitive user interfaces or generating appealing graphics.
+</p>
+                            </div>
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xxl: 6.25rem; --ptf-md: 3.125rem;"></div>
+                        </div>
+                        <div class="col-lg-12">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                <!--Simple Image-->
+                                <div class="ptf-simple-image"><a href="{% static 'assets/img/uiux.webp'%}" data-fancybox="" rel="nofollow"><img src="{% static 'assets/img/uiux.webp'%}" alt="ui ux and graphic design service by upmeee" loading="lazy"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+
+                </div>
+            </section>
+             <!----------block2------------>
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3.75rem;"></div>
+                <div class="container">
+                    <div class="row align-items-center" style="--bs-gutter-y: 2rem;">
+                        <div class="col-12 col-xl-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate">
+                                <!--Phone Block-->
+                                <div class="ptf-phone-block">
+                                    <div class="ptf-phone-block__icon"><i class="lnil lnil-phone"></i></div>
+                                    <div class="ptf-phone-block__caption">Call Us<br>Directly</div>
+                                    <div class="ptf-phone-block__phone"><a href="tel:+919735151074">(+91) 97 35151 074</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate">
+                                <!--Counter Up-->
+                                <div class="ptf-counter-up ptf-counter-up--style-2">
+                                    <div class="ptf-counter-up__value" data-prefix="" data-suffix="">350</div>
+                                    <h5 class="ptf-counter-up__title">Happy Clients <br>in 8 years</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl text-xl-end">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate">
+                                <!--Counter Up-->
+                                <div class="ptf-counter-up ptf-counter-up--style-2">
+                                    <div class="ptf-counter-up__value" data-prefix="" data-suffix="">500</div>
+                                    <h5 class="ptf-counter-up__title">Projects completed on <br>the worldwide</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3.75rem;"></div>
+                <section>
+                    <div class="container">
+                        <!--Divider-->
+                        <div class="ptf-divider"></div>
+                    </div>
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+
+                </section>
+            </section>
+             <!----------block3------------>
+
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3.125rem; --ptf-md: 1rem;"></div>
+                <div class="container-xxl">
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block">
+                        <h1 class="fz-120 fz-90--lg fz-60--md lh-1p1">Services We Provide for
+                            <br>UI/UX & Graphic Design : </h1>
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 8.125rem; --ptf-md: 4.0625rem;"></div>
+
+
+
+
+
+
+               <section id="enterprise-solutions" class="wwd-service-section right-section">
+                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                <div class="container-xxl">
+                    <div class="wwd-service-bg">
+                        <div class="row no-gutters">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                <div class="service-content">
+                                    <h2>User-Centered Interface UI Design</h2>
+                                   <p>We understand the critical significance that user-centered interface design plays in the success of your digital goods at UpMeee. Our experienced design team specializes in developing interfaces that prioritize user demands and preferences. We create intuitive and engaging interfaces through thorough user research, information architecture, and interactive prototyping. Our usability testing and accessibility compliance services ensure that your product is not only visually beautiful, but also useful and accessible to a wide range of customers. Allow us to assist you in mapping out user journeys that lead to higher user happiness and conversions.
+                                   </p>
+
+
+                                 <div class="technology-icon">
+                                    <ul>
+
+                                    <li>
+                                    <a href="#"
+                                    aria-label="Shopify">
+                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                        <img class="Shopify" src="{% static 'assets/icon/shopify.webp'%}"/>
+                                    </div>
+                                    </a>
+                                    </li>
+                                    <li>
+                                    <a href="#"
+                                    aria-label="Magento">
+                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                     <img class="Shopify" src="{% static 'assets/icon/Magento.webp'%}"/>
+                                    </div>
+
+                                    </a>
+                                    </li>
+                                    <li>
+                                     <a href="#"
+                                      aria-label="Wordpress">
+                                      <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                        <img class="Shopify" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                       </div>
+                                    </a>
+                                    </li>
+                                    </ul>
+               </div>
+
+
+
+
+
+
+                                        <div class="service-points">
+                                            <ul class="two-col">
+                                        <li>User Research and Persona Development</li>
+                                        <li>Information Architecture and Wireframing</li>
+                                        <li>Interactive Prototyping</li>
+                                        <li>Usability Testing and Feedback</li>
+                                        <li>Accessibility Compliance</li>
+                                        <li>User Journey Mapping</li>
+                                        </ul>
+                                        </div>
+
+                       </div>
+                   </div>
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                       <div class="service-img">
+                         <img src="{% static 'assets/img/User-Centered.webp'%}" alt="User Centered Interface UI Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/User-Centered.webp'%}" alt="User Centered Interface UI Design by UpMeee" height="800" width="800" /></noscript>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+                </section>
+
+                <section id="ecommerce" class="wwd-service-section left-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="service-content">
+                                                                     <h2>Responsive Website UI/UX Design</h2>
+                                                                      <p>In an age when customers visit websites via a variety of devices, responsive web design is critical. Our designers are professionals in creating websites that effortlessly adapt to numerous screen sizes and devices. We stress mobile-first design, ensuring that your site looks great and works perfectly on smartphones, tablets, and desktop computers. Your website will provide a consistent and great user experience across all platforms thanks to cross-browser compatibility and adaptable design ideas. By incorporating Progressive Web App (PWA) technology, we can even improve performance and interaction.
+
+                                                                      </p>
+
+                                           <div class="technology-icon">
+                                                                <ul>
+
+                                                                <li>
+                                                                <a href="#"
+                                                                aria-label="Shopify">
+                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                    <img class="Shopify" src="{% static 'assets/icon/shopify.webp'%}"/>
+                                                                </div>
+                                                                </a>
+                                                                </li>
+                                                                <li>
+                                                                <a href="#"
+                                                                aria-label="Magento">
+                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                 <img class="Shopify" src="{% static 'assets/icon/Magento.webp'%}"/>
+                                                                </div>
+
+                                                                </a>
+                                                                </li>
+                                                                <li>
+                                                                 <a href="#"
+                                                                  aria-label="Wordpress">
+                                                                  <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                    <img class="Shopify" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                   </div>
+                                                                </a>
+                                                                </li>
+                                                                </ul>
+                                           </div>
+
+                                                                                             <div class="service-points"><div class="wwd-servces-points">
+             <ul class="grey-bullet two-col">
+             <li>Mobile-First Design</li>
+             <li>Cross-Browser Compatibility</li>
+             <li>Adaptive Design Strategy</li>
+             <li>Performance Optimization</li>
+             <li>Touch-Friendly UI Elements</li>
+             <li>Progressive Web App (PWA) Integration</li>
+
+             </ul>
+             </div>
+             </div>
+                                                                                          </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="service-img">
+                                        <img src="{% static 'assets/img/Responsive.webp'%}" alt="Responsive Website UI/UX Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Responsive.webp'%}" alt="Responsive Website UI/UX Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+                <section id="backend" class="wwd-service-section right-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                    <div class="service-content">
+                                      <h2>Mobile App UI/UX Design</h2>
+                                      <p>Mobile apps are an important part of the digital world, and our mobile app design services are specifically targeted to help your app stand out. For iOS and Android, our design team specializes in generating memorable app icons, intuitive gesture-driven interfaces, and platform-specific design components. We undertake extensive usability assessments to discover areas for improvement and provide multilingual and localization support to help your app reach a worldwide audience. With our experienced advice, investigate the possibilities of augmented reality (AR) and virtual reality (VR) integration.
+                                        </p>
+
+                                         <div class="technology-icon">
+                                            <ul>
+                                            <li>
+                                            <a href="#"
+                                            aria-label="Shopify">
+                                            <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                <img class="PHPimg" src="{% static 'assets/icon/PHP.webp'%}"/>
+                                            </div>
+                                            </a>
+                                            </li>
+                                            <li>
+                                            <a href="#"
+                                            aria-label="Magento">
+                                            <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                             <img class="Javaimg" src="{% static 'assets/icon/Java.webp'%}"/>
+                                            </div>
+                                            </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                aria-label="Wordpress">
+                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                 <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                </div>
+                                                </a>
+                                                </li>
+                                            <li>
+                                             <a href="#"
+                                              aria-label="Drupal">
+                                              <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                               </div>
+                                            </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                 aria-label="Laravel">
+                                                 <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                   <img class="Laravelimg" src="{% static 'assets/icon/Laravel.webp'%}"/>
+                                                  </div>
+                                               </a>
+                                               </li>
+                                            </ul>
+                                        </div>
+
+                                          <div class="service-points"><ul class="two-col">
+                                            <li>Platform-Specific Design (iOS, Android)</li>
+                                            <li>App Icon and Logo Design</li>
+                                            <li>Gesture-Driven Interfaces</li>
+                                            <li>App Usability Audits</li>
+                                            <li>Multilingual and Localization Support</li>
+                                            <li>AR/VR Integration</li>
+
+                                            </ul>
+                                            </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                                    <div class="service-img">
+                                      <img src="{% static 'assets/img/Mobile.webp'%}" alt="Mobile App UI/UX Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Mobile.webp'%}" alt="Mobile App UI/UX Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="cms" class="wwd-service-section left-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="service-content">
+                                        <h2>E-commerce Website UI/UX Design</h2>
+                                                                                                <p>A fluid e-commerce design may make or break an online firm. We specialize in refining product pages for optimum conversion, creating user-friendly shopping carts, and seamlessly integrating secure payment channels. Our knowledge includes developing customer account dashboards for tailored experiences, optimizing the checkout process, and introducing product suggestion engines to increase sales. With our expert design services, you can turn your e-commerce platform into a high-converting sales machine.
+                                                                                                </p>
+
+                                                                                                <div class="technology-icon">
+                                                                                                    <ul>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                    aria-label="Drupal">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Joomla">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                        aria-label="Wordpress">
+                                                                                                        <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                         <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                        </div>
+                                                                                                        </a>
+                                                                                                        </li>
+                                                                                                    <li>
+
+                                                                                                      <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                       </div>
+                                                                                                    </a>
+                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                         <div class="service-points"><ul class="grey-bullet">
+                                        <li>Product Page Optimization</li>
+                                        <li>Shopping Cart Design</li>
+                                        <li>Payment Gateway Integration</li>
+                                        <li>Checkout Process Streamlining</li>
+                                        <li>Product Recommendation Engines</li>
+                                        </ul>
+                                        </div>
+                                                                                          </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="service-img">
+                                        <img src="{% static 'assets/img/E-commerce.webp'%}" alt="E-commerce Website UI/UX Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/E-commerce.webp'%}" alt="E-commerce Website UI/UX Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="custom-development" class="wwd-service-section right-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                    <div class="service-content">
+                                       <h2>Dashboard and Analytics UI Design</h2>
+                                                                                               <p>Well-designed dashboards and analytics interfaces are critical for informed decision-making in today's data-driven society. Our team excels at transforming difficult data into visually appealing representations. We incorporate real-time statistics into your dashboards smoothly, with customized widgets and cross-platform compatibility. Track your key performance indicators (KPIs) easily and deliver useful insights to your team with user-configurable dashboards. With our dashboard and analytics design services, you can realize the full potential of your data.
+                                                                                                </p>
+
+
+
+
+                                                                                               <div class="technology-icon">
+                                                                                                <ul>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                aria-label="Drupal">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                aria-label="Joomla">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                 <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Wordpress">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                <li>
+
+                                                                                                  <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                   </div>
+                                                                                                </a>
+                                                                                                </li>
+
+                                                                                                </ul>
+                                                                                            </div>
+
+                                                                                             <div class="service-points"><ul class="white-bullet">
+             <li>Data Visualization</li>
+             <li>Real-Time Analytics Integration</li>
+             <li>Customizable Dashboard Widgets</li>
+             <li>Multi-Platform Dashboard Development</li>
+             <li>KPI Tracking and Reporting</li>
+             <li>User-Configurable Dashboards</li>
+             </ul>
+             </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                                    <div class="service-img">
+                                      <img src="{% static 'assets/img/Dashboard.webp'%}" alt="Dashboard and Analytics UI Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Dashboard.webp'%}" alt="Dashboard and Analytics UI Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+           <!----------block4------------>
+<section id="cms" class="wwd-service-section left-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="service-content">
+                                        <h2>UI/UX Consultation</h2>
+                                                                                                <p>If you already have a product and want expert advice on how to improve its user interface and experience, our UI/UX consultancy services can help. Our experienced personnel will conduct a thorough UI/UX audit and assessment to discover areas for improvement. To create user-centric design roadmaps, we use usability heuristic evaluations, competitor studies, and design strategy workshops. Furthermore, we provide specialist UX/UI training and workshops to equip your team with best practices and the most recent market trends. Allow us to lead you down the path to UI/UX greatness.
+</p>
+
+                                                                                                <div class="technology-icon">
+                                                                                                    <ul>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                    aria-label="Drupal">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Joomla">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                        aria-label="Wordpress">
+                                                                                                        <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                         <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                        </div>
+                                                                                                        </a>
+                                                                                                        </li>
+                                                                                                    <li>
+
+                                                                                                      <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                       </div>
+                                                                                                    </a>
+                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                         <div class="service-points"><ul class="grey-bullet">
+                                        <li>UI/UX Audit and Assessment</li>
+                                        <li>Usability Heuristic Evaluation</li>
+                                        <li>Design Strategy Workshops</li>
+                                        <li>Competitor Analysis</li>
+                                        <li>User-Centric Design Roadmaps</li>
+                                        <li>UX/UI Training and Workshops</li>
+                                        </ul>
+                                        </div>
+                                                                                          </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="service-img">
+                                        <img src="{% static 'assets/img/Consultation.webp'%}" alt="UI/UX Consultation by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Consultation.webp'%}" alt="UI/UX Consultation by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="custom-development" class="wwd-service-section right-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                    <div class="service-content">
+                                       <h2>Logo and Brand Design</h2>
+                                                                                               <p>We understand that your logo and brand identity are the foundations of your visual presence at UpMeee. Our graphic designers are experts in creating one-of-a-kind, memorable logos and comprehensive brand identities that reflect your company's beliefs and personality. More than just a logo, we provide brand style guides to maintain consistency across all of your visual products. In addition, our team provides audits to ensure that your brand's aesthetic integrity is maintained. Allow us to assist you in telling your brand's narrative through compelling and consistent design.
+</p>
+
+
+
+
+                                                                                               <div class="technology-icon">
+                                                                                                <ul>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                aria-label="Drupal">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                aria-label="Joomla">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                 <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Wordpress">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                <li>
+
+                                                                                                  <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                   </div>
+                                                                                                </a>
+                                                                                                </li>
+
+                                                                                                </ul>
+                                                                                            </div>
+
+                                                                                             <div class="service-points"><ul class="white-bullet">
+             <li>Logo Design and Redesign</li>
+             <li>Brand Style Guide Creation</li>
+             <li>Corporate Stationery Design</li>
+             <li>Visual Brand Consistency Audits</li>
+             <li>Brand Storytelling through Design</li>
+             <li>Trademark and Copyright Consultation</li>
+             </ul>
+             </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                                    <div class="service-img">
+                                      <img src="{% static 'assets/img/Brand.webp'%}" alt="Logo and Brand Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Brand.webp'%}" alt="Logo and Brand Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <section id="cms" class="wwd-service-section left-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="service-content">
+                                        <h2>Social Media Graphics Design</h2>
+                                                                                                <p>Impactful pictures are vital for engaging your audience in the age of social media dominance. Our graphic design team specializes in designing eye-catching social media graphics that successfully tell the story of your brand. We ensure your brand shines out on all major platforms by authoring engaging social media posts, optimizing cover photographs and profile pictures, and designing visuals for ad campaigns. To increase user engagement, we can even incorporate animated graphics and GIFs.
+
+                                                                                                </p>
+
+                                                                                                <div class="technology-icon">
+                                                                                                    <ul>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                    aria-label="Drupal">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Joomla">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                        aria-label="Wordpress">
+                                                                                                        <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                         <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                        </div>
+                                                                                                        </a>
+                                                                                                        </li>
+                                                                                                    <li>
+
+                                                                                                      <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                       </div>
+                                                                                                    </a>
+                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                         <div class="service-points"><ul class="grey-bullet">
+                                        <li>Social Media Post Design</li>
+                                        <li>Cover Photos and Profile Pictures</li>
+                                        <li>Ad Campaign Visuals</li>
+                                        <li>Social Media Branding</li>
+                                        <li>Content Calendar Graphics</li>
+                                        <li>Animated Graphics and GIFs</li>
+                                        </ul>
+                                        </div>
+                                                                                          </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="service-img">
+                                        <img src="{% static 'assets/img/Social.webp'%}" alt="Social Media Graphics Design by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Social.webp'%}" alt="Social Media Graphics Design by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="custom-development" class="wwd-service-section right-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                    <div class="service-content">
+                                       <h2>Print and Marketing Collateral</h2>
+                                                                                               <p>Print products retain tremendous significance in marketing and communication even in a digital world. Our graphic design team excels at creating visually appealing print collateral that makes an impression. We have you covered for anything from brochures and catalogs that highlight your products or services to posters and banners that draw attention at events. We can also help you make a lasting first impression with personalized business cards. You may be confident that your products will be of the greatest quality thanks to our print production management skills.
+
+                                                            </p>
+
+
+
+
+                                                                                               <div class="technology-icon">
+                                                                                                <ul>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                aria-label="Drupal">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                aria-label="Joomla">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                 <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Wordpress">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                <li>
+
+                                                                                                  <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                   </div>
+                                                                                                </a>
+                                                                                                </li>
+
+                                                                                                </ul>
+                                                                                            </div>
+
+                                                                                             <div class="service-points"><ul class="white-bullet">
+             <li>Brochure and Catalog Design</li>
+             <li>Poster and Banner Creation</li>
+             <li>Business Card Customization</li>
+             <li>Promotional Materials</li>
+             <li>Direct Mail Design</li>
+             <li>Print Production Management</li>
+             </ul>
+             </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                                    <div class="service-img">
+                                      <img src="{% static 'assets/img/Print.webp'%}" alt="Print and Marketing Collateral by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Print.webp'%}" alt="Print and Marketing Collateral by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+
+
+
+
+
+
+
+            <section id="cms" class="wwd-service-section left-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="service-content">
+                                        <h2>Packaging Design</h2>
+                                                                                                <p>Customers' initial physical interaction with your goods is generally through packaging. Our packaging design services aim to make your items stand out on store shelves. We specialize in producing eye-catching product labels, inventive box and package designs, and selecting eco-friendly packaging materials that are in line with sustainability objectives. Our staff ensures that your packaging meets all applicable requirements and can even supply prototypes for testing prior to full-scale manufacturing.
+                                                                                                </p>
+
+                                                                                                <div class="technology-icon">
+                                                                                                    <ul>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                    aria-label="Drupal">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Joomla">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                        aria-label="Wordpress">
+                                                                                                        <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                         <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                        </div>
+                                                                                                        </a>
+                                                                                                        </li>
+                                                                                                    <li>
+
+                                                                                                      <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                        <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                       </div>
+                                                                                                    </a>
+                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                         <div class="service-points"><ul class="grey-bullet">
+                                        <li>Product Label Design</li>
+                                        <li>Box and Package Design</li>
+                                        <li>Packaging Material Selection</li>
+                                        <li>Regulatory Compliance</li>
+                                        <li>Packaging Prototyping</li>
+                                        <li>Eco-Friendly Packaging Solutions</li>
+                                        </ul>
+                                        </div>
+                                                                                          </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="service-img">
+                                        <img src="{% static 'assets/img/Packaging.webp'%}" alt="Packaging Design Services by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Packaging.webp'%}" alt="Packaging Design Services by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="custom-development" class="wwd-service-section right-section">
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="wwd-service-bg">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-lg-2">
+                                    <div class="service-content">
+                                       <h2>Illustration Design Services</h2>
+                                                                                               <p>Illustrations have the ability to give your brand and content a distinct, aesthetic dimension. Our talented illustrators may produce custom graphics that complement your brand's visual identity. Whether you require digital art, character design, or animation storyboarding, our team can bring your vision to life. We also create symbols that match the aesthetic of your business, concept drawings for projects, and even comic or book images to engage your audience in narrative.
+                                                                                                </p>
+
+
+
+
+                                                                                               <div class="technology-icon">
+                                                                                                <ul>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/shopify-ecommerce-development/"
+                                                                                                aria-label="Drupal">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="Drupalimg" src="{% static 'assets/icon/Drupal.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                aria-label="Joomla">
+                                                                                                <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                 <img class="Joomlaimg" src="{% static 'assets/icon/Joomla.webp'%}"/>
+                                                                                                </div>
+                                                                                                </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="https://www.indianic.com/services/web/magento-ecommerce-development/"
+                                                                                                    aria-label="Wordpress">
+                                                                                                    <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                     <img class="Wordpressimg" src="{% static 'assets/icon/Wordpress.webp'%}"/>
+                                                                                                    </div>
+                                                                                                    </a>
+                                                                                                    </li>
+                                                                                                <li>
+
+                                                                                                  <div class="tech-icon icon-ic-cms-technology-shopify-plus">
+                                                                                                    <img class="diconimg" src="{% static 'assets/icon/dicon.webp'%}"/>
+                                                                                                   </div>
+                                                                                                </a>
+                                                                                                </li>
+
+                                                                                                </ul>
+                                                                                            </div>
+
+                                                                                             <div class="service-points"><ul class="white-bullet">
+             <li>Custom Illustrations</li>
+             <li>Digital Art and Character Design</li>
+             <li>Storyboarding for Animations</li>
+             <li>Iconography and Icon Design</li>
+             <li>Concept Art and Visual Ideation</li>
+             <li>Comic and Book Illustration</li>
+             </ul>
+             </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-lg-1">
+                                    <div class="service-img">
+                                      <img src="{% static 'assets/img/Illustration.webp'%}" alt="Illustration Design Services by UpMeee" height="800" width="800" class="lazyloaded" data-ll-status="loaded"><noscript><img src="{% static 'assets/img/Illustration.webp'%}" alt="Illustration Design Services by UpMeee" height="800" width="800" /></noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+
+
+
+
+
+            </section>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h2>Enhancing Visual <br>Appeal and Usability</h2>
+                                </div>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-lg: 1.5625rem;"></div>
+                            </div>
+                            <div class="col-lg-8">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+                                    <p class="fz-18">The artistic and functional component of producing digital goods that people engage with on a daily basis, such as websites and mobile applications, is known as user interface (UI) design. It emphasizes on the visual features that make these items pleasant to the eye and simple to use. A well-crafted UI design not only captivates customers with eye-catching graphics and layouts, but also seamlessly guides them through the product's features and functionalities.
+
+                                    <p class="fz-18">The creation of a visually beautiful and unified user interface is the major advantage of investing in UI design. An appealing user interface captures people' attention and instills trust and professionalism in your brand or product. Furthermore, a well-designed user interface can have a considerable impact on user engagement and retention rates. Users are more inclined to explore further, accomplish desired actions, and return for future encounters when they find an interface visually appealing and intuitive. It also aids in the reduction of the learning curve, making it easier for new users to browse and comprehend your product. A good UI design distinguishes you in the competitive digital landscape, leaving a lasting impression on consumers and improving your brand's overall legitimacy and user satisfaction.
+                                    </p>
+                                    <p class="fz-18">It is crucial to highlight, however, that UI design is not only about aesthetics; it also plays an important part in usability. A well-designed user interface guarantees that consumers may readily access the functions they require without difficulty. It reduces cognitive strain, streamlines the user path, and optimizes interactions, resulting in a more pleasant and pleasurable user experience. A well-structured user interface also ensures uniformity across platforms and devices, ensuring that your product looks and performs reliably no matter where or how it is accessed. In summary, UI design blends artistic and functional components to create an engaging, user-friendly, and visually attractive interface that not only attracts but also retains people.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 12rem; --ptf-md: 5.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="row" style="flex-direction:row-reverse;">
+
+
+                            <div class="col-lg-4" style="padding-left: 20%;">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h2>Crafting Seamless and Memorable Interactions</h2>
+                                </div>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-lg: 1.5625rem;"></div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+                                    <p class="fz-18">UX design is the comprehensive process of improving the total engagement that people have with a product or service. It extends beyond visual aesthetics to include all aspects of the user's journey, from first contact to continuing interaction. The goal of UX design is to make goods more accessible, intuitive, and pleasurable by closely matching them with user needs, behaviors, and expectations.
+
+                                    <p class="fz-18">The primary advantage of emphasizing UX design is the construction of a consistent and memorable user experience. A well-designed UX guarantees that consumers can easily browse your product or website, locate what they're searching for, and achieve their objectives with minimal effort. This frictionless experience boosts customer pleasure and brand loyalty, frequently leading to improved retention rates and conversion rates. Positive user experiences can also lead to organic referrals and word-of-mouth marketing, which can help you grow your user base.
+                                    </p>
+                                    <p class="fz-18">UX design also considers user research and testing, allowing you to make data-driven decisions to continuously optimize your product. Understanding user behaviors and pain points allows you to improve your design, provide useful features, and remove roadblocks to user engagement. Furthermore, an excellent UX design emphasizes accessibility, ensuring that your product is usable by individuals of all abilities and so expanding your user base to a more broad audience. Finally, UX design focuses on establishing meaningful and engaging encounters with consumers that increase user satisfaction and loyalty, as well as contribute to the long-term success and expansion of your digital products or services.
+                                    </p>
+                                </div>
+                            </div>
+
+</section>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.6875rem;"></div>
+                    <div class="container-xxl">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h2>Elevating Brand <br>Identity and Communication</h2>
+                                </div>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-lg: 1.5625rem;"></div>
+                            </div>
+                            <div class="col-lg-8">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+                                    <p class="fz-18">Graphic design is a multidimensional profession that is critical in defining a brand's identity and effectively communicating messages. It requires a wide range of creative and technical abilities to create visual aspects that are appealing to consumers. A well-executed graphic design is more than just a pretty face; it is an effective instrument for brand recognition, communication, and engagement.
+                                    <p class="fz-18">One of the key advantages of investing in graphic design is that it can help to elevate your brand's identity. In a congested marketplace, a strong and unified visual identity establishes your brand's personality, values, and individuality. Logos, color schemes, typography, and images are examples of elements that work together to create a consistent and distinctive brand image. This consistency not only increases brand awareness, but it also increases trust and credibility among your target audience. For example, a well-designed logo becomes an iconic symbol that people identify with your brand, making it easily identifiable. In addition, graphic design encompasses a wide range of marketing materials, from brochures and business cards to social media visuals and commercials.
+                                    These brochures effectively and persuasively express your brand's story and value offer. Effective visual design can also use infographics to explain complex information, making data more accessible and entertaining. In a world when first impressions are everything, graphic design may help you make a lasting and favorable impression on your target audience.
+
+                                </p>
+                                    <p class="fz-18">Graphic design improves communication in ways other than aesthetics. It is all about communicating messages simply and engagingly. Graphic design is essential in catching attention and presenting information efficiently, whether it's a poster for an event, a banner ad on a website, or a product label on a store shelf. Effective design directs the viewer's gaze, prioritizes information, and successfully delivers the desired message. This means higher engagement rates, higher conversion rates, and increased brand memory for businesses. Graphic design, in essence, is a strategic asset that helps your brand successfully express its beliefs, goods, and services, making it a vital tool for businesses and organizations trying to stand out and flourish in a visually driven world.
+You may not only elevate your brand but also engage with your audience on a deeper level by utilizing the power of graphic design, producing a lasting impression that drives growth and success.
+</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                        </div>
+                    </div>
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                </section>
+
+             <section>
+
+                        <!--Spacer-->
+                        <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                        <div class="container-xxl">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-7">
+                                            <!--Animated Block-->
+                                            <div class="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                                                <h2 class="h1 large-heading has-accent-1">Technology That We Use For UI/UX and Graphic Design
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 d-none d-xl-block">
+                                            <!--Animated Block-->
+                                            <div class="ptf-animated-block" data-aos="fade" data-aos-delay="100">
+                                                <div class="has-black-color fz-90 lh-1 text-end"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                        style="height:1em" viewBox="0 0 17 17">
+                                                        <path
+                                                            d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+                                                    </svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                                <section>
+
+
+
+                            </div>
+                            <div class="row" style="--bs-gutter-y: 2rem;">
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #fcf8f4; --ptf-image-height: 85px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/figma.webp'%} " alt="figma Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">Figma
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="100">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #f3f7fc; --ptf-image-height: 78px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/illustrator.webp'%} " alt="illustrator Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">Illustrator
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="200">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #f9fcf3; --ptf-image-height: 90px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/xd.webp'%} " alt="xd Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">XD
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="300">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #f9f9f9; --ptf-image-height: 90px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/sketch.webp'%} " alt="sketch Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">Sketch
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="400">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #fdf4fb; --ptf-image-height: 62px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/photoshop.webp'%} " alt="photoshop Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">Photoshop
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 col-lg-2">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="500">
+                                        <!--Partner Box-->
+                                        <div class="ptf-partner-box"
+                                            style="--ptf-hover-background: #fdf4fb; --ptf-image-height: 77px;">
+                                            <div class="ptf-partner-box__image"><img
+                                                    src="{% static 'assets/img/root/partners/invision.webp'%} " alt="invision Design by UpMeee"
+                                                    loading="lazy"></div>
+                                            <h6 class="ptf-partner-box__title">Invision
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <!--Spacer-->
+                                    <div class="ptf-spacer" style=" --ptf-xxl: 8.75rem; --ptf-md: 4.375rem;"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            <section>
+                <div class="container-xxl">
+                  <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5.625rem;"></div>
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                        <!--FAQ-->
+                        <div class="ptf-faq" style="border-bottom:none;">
+                            <div class="ptf-faq__category">
+                                <h3>Industries <br>We Serve </h3>
+                            </div>
+                            <div class="ptf-faq__content">
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6> E-Commerce :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>A flawless user experience is critical in the competitive world of online retail. Our UI/UX design services provide quick product discovery, intuitive navigation, and a smooth checkout procedure. A well-designed e-commerce platform can increase customer happiness and conversion rates.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Healthcare :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Precision and usability are crucial in healthcare. With user-centric interfaces for health apps and websites, our UI/UX design promotes patient engagement. Improve patient outcomes by streamlining information access, appointment scheduling, and health tracking.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Finance :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>In the financial sector, trust and security are critical. Our UI/UX design improves the user experience for banking and financial services by guaranteeing clear information presentation, seamless transactions, and solid security measures, thereby increasing customer trust.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Travel and Hospitality :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Travelers are looking for convenience as well as inspiration. Our user interface and user experience design develops visually appealing and user-friendly platforms for travel bookings, lodging, and trip planning. In the competitive travel sector, increase bookings and client loyalty.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Education :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Learning should be enjoyable and simple. Our user interface and user experience design creates a user-friendly online learning environment, making it simple for students to access resources, collaborate, and engage with course materials.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Real Estate :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Real estate transactions frequently require extensive data. Our UI/UX design streamlines property searches, allows for virtual tours, and allows for easy communication with agents, making the buying and selling process more joyful.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Entertainment :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Engaging interfaces are essential in the entertainment sector. Our user interface and user experience design creates immersive experiences for gaming, streaming, and media consumption. Keep users interested and returning for more.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Food and Beverage :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Food applications and websites must pique the consumer's interest. Our user interface/user experience design improves menu visibility, order placement, and delivery tracking. Make dining and ordering meals a pleasurable and simple experience.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Nonprofits and NGOs :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>Donors and volunteers are essential to nonprofits. Our UI/UX design successfully communicates your vision, making it simple for supporters to donate, get engaged, and remain informed about your activities.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptf-faq__item">
+                                    <div class="ptf-faq__question">
+                                        <h6>Manufacturing and B2B :
+                                        </h6>
+                                    </div>
+                                    <div class="ptf-faq__answer">
+                                        <p>To streamline procurement and communication, B2B clients require user-friendly solutions. Our user interface and user experience design increases the efficiency of your manufacturing and B2B processes, enhancing client interactions and increasing production.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </section>
+             <!----------block5------------>
+             <section>
+                <div class="container">
+                <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 3.25rem; --ptf-md: 3.125rem;"></div>
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block aos-init">
+                        <h2>Benefits Of UI/UX and Graphic Design</h2>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 1.5625rem;"></div>
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block aos-init">
+                        <p class="fz-18">A effective digital strategy must include UI/UX and Graphic Design. They improve user experiences, reinforce brand identification, and increase engagement. Here are the main advantages:</p>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 1.5625rem;"></div>
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block aos-init">
+                        <ul class="fz-18" style="line-height: 2;">
+                            <li><span class="has-accent-1">Improved User Experience:</span> Intuitive navigation and user happiness are ensured by thoughtful UI/UX design.</li>
+                            <li><span class="has-accent-1">Brand Recognition: </span>Graphic design maintains brand recognition across all channels.
+Improved Conversion Rates: Engaging aesthetics and user-friendly interfaces boost conversion rates.</li>
+                            <li><span class="has-accent-1">Competitive advantage:</span> A strong design distinguishes you and attracts your target audience.
+Investing in user interface/user experience (UI/UX) and graphic design is an investment in a more impactful and successful digital presence.</li>
+                        </ul>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 4.375rem; --ptf-md: 2.1875rem;"></div>
+                </div>
+            </section>
+             <!----------block6------------>
+            <section>
+
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-7">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block aos-init aos-animate">
+                                        <h2 class="h1 large-heading has-accent-1">Trending Services For UI/UX & Graphic Design
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 d-none d-xl-block">
+                                    <!--Animated Block-->
+                                    <div class="ptf-animated-block aos-init aos-animate">
+                                        <div class="has-black-color fz-90 lh-1 text-end"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="height:1em" viewBox="0 0 17 17">
+                                                <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"></path>
+                                            </svg></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 5rem;"></div>
+                      </div>
+
+
+                 </div>
+            </section>
+            <section>
+                <div class="container-xxl">
+                    <div class="ptf-widget ptf-widget-popular-posts">
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h4 class="ptf-widget-title">UI (User Interface) Design :</h4>
+
+
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Responsive Web UI Design</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+
+                                       <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Mobile App Interface UI Design</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Web Application UI</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>E-commerce Interface UI Design</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Dashboard and Analytics UI</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h4 class="ptf-widget-title">UX (User Experience) Design :</h4>
+
+
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>User-Centered Research</h6>
+                                        </div>
+                                    </a><a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Usability Testing and Evaluation</h6>
+                                        </div>
+                                    </a><a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Information Architecture</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>User Persona Development</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>User Journey Mapping</h6>
+                                        </div>
+                                    </a>
+                            </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                    <h4 class="ptf-widget-title">Graphic Design:</h4>
+
+
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Logo Design and Brand Identity</h6>
+                                        </div>
+                                    </a><a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Print Collateral <br>(Brochures, Flyers, Posters)</h6>
+                                        </div>
+                                    </a><a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Social Media Graphics</h6>
+                                        </div>
+                                    </a><a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Infographic Design</h6>
+                                        </div>
+                                    </a>
+                                    <a class="ptf-popular-post" href="#">
+                                        <div class="ptf-popular-post__number">
+                                            <img src="{% static 'assets/img/service-details-bulletspoint.webp'%}"/>
+                                        </div>
+                                        <div class="ptf-popular-post__content"><span class="cat"></span>
+                                            <h6>Packaging and Label Design</h6>
+                                        </div>
+                                    </a>
+                            </div></div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+             <!----------block7------------>
+             <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 4.375rem;"></div>
+
+                <section>
+                    <div class="container-xxl">
+                        <!--Divider-->
+                        <div class="ptf-divider" style="--ptf-color: var(--ptf-color-14); --ptf-height: 1px;"></div>
+                    </div>
+                </section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3rem; --ptf-md: 5rem;"></div>
+
+                <section>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 2rem; --ptf-md: 6.25rem;"></div>
+                    <div class="container text-center">
+                        <div class="d-inline-flex text-start">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
+                                <div class="fz-30">Describe your project</div>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 1.25rem;"></div>
+                                <div class="fz-130 fz-90--md has-black-color has-secondary-font fw-normal lh-1p1">
+                                    <a class="ptf-filled-link" href="tel:+919735151074">Call UpMeee</a>
+                                </div>
+                                <div class="fz-80 has-black-color"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="height:1em" viewBox="0 0 17 17">
+                                        <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"></path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+                </section>
+
+                <section>
+                    <div class="container-xxl">
+                        <!--Divider-->
+                        <div class="ptf-divider" style="--ptf-color: var(--ptf-color-14); --ptf-height: 1px;"></div>
+                    </div>
+                </section>
+            </section>
+             <!----------block8------------>
+             <section class="has-accent-1-background" style="background-image: url({% static 'assets/img/root/service-bubble.webp); background-repeat: no-repeat;	background-position: 100% calc(100% + 120px);">
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+                <div class="container-xxl">
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="0">
+                        <h2 class="h1 large-heading">Exploring Our Creative Process for UI/UX & Graphic Design Excellence</h2>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 7.5rem; --ptf-md: 3.75rem;"></div>
+                    <div class="row" style="--bs-gutter-x: 3.75rem; --bs-gutter-y: 7.5rem">
+                        <div class="col-xl-4 col-lg-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="0">
+                                <!--Approach Box-->
+                                <div class="ptf-approach-box" style="--ptf-title-color: var(--ptf-color-white); height: 500px;">
+                                    <div class="ptf-approach-box__subtitle">One
+                                    </div>
+                                    <h3 class="ptf-approach-box__title h1">Understanding Your Vision :
+                                    </h3>
+                                    <div class="ptf-approach-box__content">
+                                        <p>Our journey begins with a knowledge of your vision and goals. We go deep to understand your brand's identity and target audience, ensuring that our designs are properly aligned with your objectives.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="100">
+                                <!--Approach Box-->
+                                <div class="ptf-approach-box" style="--ptf-title-color: var(--ptf-color-white); height: 385px;">
+                                    <div class="ptf-approach-box__subtitle">Two
+                                    </div>
+                                    <h3 class="ptf-approach-box__title h1">Generating Ideas & Creativity :
+                                    </h3>
+                                    <div class="ptf-approach-box__content">
+                                        <p>We turn your ideas into creative concepts. Our team brainstorms and develops concepts to ensure that each design aspect contributes to a better user experience and aesthetic impact.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="200">
+                                <!--Approach Box-->
+                                <div class="ptf-approach-box" style="--ptf-title-color: var(--ptf-color-white); height: 385px;">
+                                    <div class="ptf-approach-box__subtitle">Three
+                                    </div>
+                                    <h3 class="ptf-approach-box__title h1">Design Craftsmanship :
+                                    </h3>
+                                    <div class="ptf-approach-box__content">
+                                        <p>Our talented designers create user interfaces, user experiences, and images with great care. We pay close attention to detail and make certain that every pixel is precisely positioned.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="0">
+                                <!--Approach Box-->
+                                <div class="ptf-approach-box" style="--ptf-title-color: var(--ptf-color-white); height: 385px;">
+                                    <div class="ptf-approach-box__subtitle">Four
+                                    </div>
+                                    <h3 class="ptf-approach-box__title h1"> Iterative Feedback <br>Loop :
+                                    </h3>
+                                    <div class="ptf-approach-box__content">
+                                        <p>We value your input throughout the design process. Feedback and revisions are welcomed and integrated into the design, ensuring the end result aligns precisely with your vision.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="100">
+                                <!--Approach Box-->
+                                <div class="ptf-approach-box" style="--ptf-title-color: var(--ptf-color-white); height: 385px;">
+                                    <div class="ptf-approach-box__subtitle">Five
+                                    </div>
+                                    <h3 class="ptf-approach-box__title h1"> Ensuring Quality & Delivery :
+                                    </h3>
+                                    <div class="ptf-approach-box__content">
+                                        <p>Our designs are rigorously tested before they are deployed. We make certain that they deliver flawlessly, fascinate your audience, and leave a lasting impact.
+                                        </p><p>
+
+Discover the creative path that distinguishes Howznot Technology's work. We are dedicated to providing UI/UX and visual design solutions that stand out and connect with your target audience.
+
+
+
+
+
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+
+
+            </section>
+            <!----------block9------------>
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 5.625rem; --ptf-md: 2.8125rem;"></div>
+                <div class="container-xxl">
+                    <div class="row">
+
+                        <!--Spacer-->
+                        <div class="ptf-spacer" style=" --ptf-xxl: 6.875rem;"></div>
+                        <!--Animated Block-->
+                        <div class="ptf-animated-block">
+                            <h3>Why Choose UpMeee for your UI/UX and Graphic Design Project ? </h3>
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xxl: 1.875rem;"></div>
+                            <p class="fz-18">Experience Excellence and Innovation: Your Success Matters Most with UpMeee.
+                            </p>
+                        </div>
+                        <!--Spacer-->
+                        <div class="ptf-spacer" style=" --ptf-xxl: 5.625rem;"></div>
+                        <!--Process Steps-->
+                        <ul class="ptf-process-steps">
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Unparalleled Expertise :
+                                </h6>
+                                <p class="ptf-process-item__text">At UpMeee, we have over a decade of experience. Every project benefits from the expertise of our team of seasoned professionals. We specialize in developing custom digital solutions to meet your specific requirements. You can be confident that your project is in capable hands when you work with us.
+                                </p>
+                            </li>
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Innovative Solutions :
+                                </h6>
+                                <p class="ptf-process-item__text">We are not your typical digital agency. We are innovators first. We use cutting-edge technology and design trends to make your website or app stand out in the digital landscape. Our innovative approach ensures that your project meets, if not exceeds, your expectations.
+                                </p>
+                            </li>
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Timely Delivery :
+                                </h6>
+                                <p class="ptf-process-item__text">We recognize the importance of time in today's fast-paced digital environment. UpMeee guarantees on-time project completion without sacrificing quality. We take pleasure in meeting deadlines and keeping your project on pace for success.
+                                </p>
+                            </li>
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Client-Centric Focus :
+                                </h6>
+                                <p class="ptf-process-item__text">Your success is our first focus. Throughout the development process, we keep open contact and value your input and comments. Your vision directs our work, and we strive to exceed your expectations at every point.
+                                </p>
+                            </li>
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Affordable Pricing :
+                                </h6>
+                                <p class="ptf-process-item__text">We recognize the significance of cost-effectiveness. UpMeee charges competitive and reasonable rates for our high-quality services. You don't have to break the money to attain digital greatness.
+
+                                </p>
+                            </li>
+                            <li class="ptf-process-item">
+                                <h6 class="ptf-process-item__title">Proven Track Record :
+                                </h6>
+                                <p class="ptf-process-item__text">Our wide portfolio of successful projects demonstrates our commitment to quality and innovation. We don't just finish projects; we develop long-term partnerships with our clients to ensure their continuous success.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4">
+
+                    </div>
+                </div>
+
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 6.25rem; --ptf-md: 3.125rem;"></div>
+            </section>
+            <!----------block10------------>
+           <div class="container-xxl">
+
+            <section>
+                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                        <h2 class="h5 d-inline-flex">Latest Work</h2><a
+                            class="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex" href="{% url 'portfolios' %}"
+                            style="margin-left: 3.125rem;">All Projects <i class="lnil lnil-chevron-right"></i></a>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 5.625rem; --ptf-md: 2.8125rem;"></div>
+
+                <div class="container-xxl">
+                    <!--Animated Block-->
+                    <div class="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+                        <div class="ptf-isotope-grid" data-columns="2" data-layout="masonry" data-x-gap="95"
+                            data-y-gap="100">
+                            <div class="grid-sizer"></div>
+
+
+{% for p in portfolio %}
+<div class="grid-item filter-1 filter-4 filter-7">
+    <!-- Portfolio Item -->
+    <article class="ptf-work ptf-work--style-6">
+        <div class="ptf-work__media"><img src="{{ p.portfolio_feature_image.url }}" alt="{{ p.portfolio_name }}"
+                loading="lazy"></div>
+        <a class="ptf-work__meta" href="{% url 'portfolio-detail' p.slug %}">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="height:1em" viewBox="0 0 17 17">
+                <path
+                    d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+            </svg>
+            <div class="ptf-work__category">{{ p.service_name }}</div>
+            <h4 class="ptf-work__title">{{ p.portfolio_name }}</h4>
+
+        </a>
+    </article>
+</div>
+{% endfor %}
+
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<div class="ptf-spacer" style=" --ptf-xxl: 6.25rem; --ptf-md: 3.125rem;"></div>
+            <!----------block11------------>
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 8rem;"></div>
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="col-xl-10">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate">
+                                <h1 class="large-heading">FAQs</h1>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 2.5rem;"></div>
+                                <p class="fz-18">Here are the frequently asked questions that we have compiled to help you find the answers to the problems you are wondering.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 6.25rem; --ptf-md: 3.125rem;"></div>
+
+                <section>
+                    <div class="container-xxl">
+                        <!--Animated Block-->
+                        <div class="ptf-animated-block aos-init aos-animate">
+                            <!--FAQ-->
+                            <div class="ptf-faq">
+                                <div class="ptf-faq__category">
+                                    <h3>Design Process</h3>
+                                </div>
+                                <div class="ptf-faq__content">
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>How do you go about designing your UI/UX ?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p> To ensure user-centric and effective interfaces, our design process includes research, wireframing, prototyping, and iterative design.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What role does user research play in your design process ?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>User research informs our design decisions by offering insights into user behavior and preferences, ensuring that designs meet the demands of the target audience.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>How can you ensure that your designs are responsive to diverse devices ?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>We focus responsive design to ensure that your interface works smoothly across several displays, from mobile to desktop.</p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>Can clients participate in the design iteration process?</h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Yes, we value client feedback. To modify and improve the design, we conduct usability testing and solicit client input.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ptf-faq">
+                                <div class="ptf-faq__category">
+                                    <h3>Project Management</h3>
+                                </div>
+                                <div class="ptf-faq__content">
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What is the average timeline for a UI/UX design project?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p> Project deadlines vary, but they are determined by the magnitude and complexity of the project. We strive hard to reach agreed-upon timelines.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>How do you address time-sensitive design requirements?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>While our usual approach ensures quality, we can consider expedited options with clients that have a pressing project deadline.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>How much communication can clients expect during the design process?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Throughout the project, we maintain open communication by delivering regular updates, soliciting comments, and including clients in crucial decisions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ptf-faq">
+                                <div class="ptf-faq__category">
+                                    <h3>Pricing and Services</h3>
+                                </div>
+                                <div class="ptf-faq__content">
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What kinds of UI/UX design services do you provide?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p> We offer user research, wireframing, prototyping, and comprehensive UI/UX design services tailored to unique project requirements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>How do you calculate the cost of a UI/UX design project?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Pricing is determined on the project's complexity and scope. We offer affordable prices and can provide personalized quotations based on your specifications.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>Is there an additional price for design revisions?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Each of our regular packages includes a set number of revisions. Additional modifications, with associated expenses, can be addressed as needed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ptf-faq">
+                                <div class="ptf-faq__category">
+                                    <h3>Design Services</h3>
+                                </div>
+                                <div class="ptf-faq__content">
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What kinds of graphic design services do you provide?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p> We offer a comprehensive range of graphic design services, including print materials, digital media, branding, and logo design, all suited to your specific requirements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>Can you help with logo design and brand identity development?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Yes, we specialize in logo design and can produce a unified brand identity that is in line with your vision.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What is the average turnaround time for graphic design projects?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Project timelines vary depending on the scale and complexity of the project, however we work hard to assure timely delivery while maintaining quality.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ptf-faq">
+                                <div class="ptf-faq__category">
+                                    <h3>File Formats and Usage Rights</h3>
+                                </div>
+                                <div class="ptf-faq__content">
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>What file types do you offer for graphic designs?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p> We provide designs in popular formats such as JPEG, PNG, and vector formats such as SVG and AI.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="ptf-faq__item">
+                                        <div class="ptf-faq__question">
+                                            <h6>When the project is finished, who owns the rights to the graphics?
+                                            </h6>
+                                        </div>
+                                        <div class="ptf-faq__answer">
+                                            <p>Unless otherwise requested, clients maintain complete ownership of the graphics we develop for their projects.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Spacer-->
+                        <div class="ptf-spacer" style=" --ptf-xxl: 5.625rem;"></div>
+
+                   </div>
+                </section>
+            </section>
+            <!----------block12------------>
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 6.25rem; --ptf-md: 3.125rem;"></div>
+                <div class="container-xxl">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="0">
+                                <p class="fz-16 text-uppercase">Since 2015</p>
+                            </div>
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xxl: 2.5rem; --ptf-md: 1.25rem;"></div>
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="100">
+                                <h1 class="large-heading text-uppercase fw-semibold" style="letter-spacing: -.05em;">About Our UI/UX Design <br>  Expertise</h1>
+                            </div>
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xxl: 4.375rem; --ptf-md: 2.1875rem;"></div>
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="200">
+                                <p class="fz-18" style="max-width: 27.8125rem;">UpMeee is your digital companion. We have over a decade of expertise creating amazing digital experiences through UI/UX design. To build appealing and intuitive interfaces that drive success, our specialized team combines creativity with extensive user understanding. We're here to help you realize your digital vision, whether you're a startup or an established company. Join us in our quest for digital greatness.</p>
+                            </div>
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xxl: 3.25rem; --ptf-md: 3.125rem;"></div>
+                            <div class="fz-90 has-black-color">
+                                <!--Animated Block-->
+                                <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="300"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="height:1em" viewBox="0 0 17 17">
+                                        <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <!--Spacer-->
+                            <div class="ptf-spacer" style=" --ptf-xl: 5.625rem;"></div>
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="400">
+                                <div class="text-center">
+                                    <!--Mask Image-->
+                                    <div class="ptf-mask-image"><img src="{% static 'assets/img/about-us-main-image.webp'%}" alt="" loading="lazy" style="--ptf-mask-image: url(../img/root/about-us/about-us-main-image-mask.html);"><img src="{% static 'assets/img/root/about-us/about-us-main-image-layer-1.webp'%}" alt="" loading="lazy"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+            </section>
+            <!----------block13------------>
+            {% include "common/team.html" %}
+            <!----------block14------------>
+            {% include "common/our_partner.html" %}
+            <!----------block15------------>
+            {% include "common/reviews.html" %}
+
+
+
+
+
+            <!----------block16------------>
+
+            <!--Spacer-->
+            <div class="ptf-spacer" style=" --ptf-xxl: 0rem; --ptf-md: 5rem;"></div>
+
+
+
+                            {% include "common/blogsView.html" %}
+           <!----------block17------------>
+            {% include "common/partner_site.html" %}
+           <!----------block18------------>
+            {% include "common/c.html" %}
+
+
+            <section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 5rem; --ptf-md: 4.375rem;"></div>
+
+                <section>
+                    <div class="container-xxl">
+                        <!--Divider-->
+                        <div class="ptf-divider" style="--ptf-color: var(--ptf-color-14); --ptf-height: 1px;"></div>
+                    </div>
+                </section>
+                <!--Spacer-->
+                <div class="ptf-spacer" style=" --ptf-xxl: 3rem; --ptf-md: 5rem;"></div>
+
+                <section>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 2rem; --ptf-md: 6.25rem;"></div>
+                    <div class="container text-center">
+                        <div class="d-inline-flex text-start">
+                            <!--Animated Block-->
+                            <div class="ptf-animated-block aos-init" data-aos="fade" data-aos-delay="0">
+                                <div class="fz-30">Describe your project</div>
+                                <!--Spacer-->
+                                <div class="ptf-spacer" style=" --ptf-xxl: 1.25rem;"></div>
+                                <div class="fz-130 fz-90--md has-black-color has-secondary-font fw-normal lh-1p1">
+                                    <a class="ptf-filled-link" href="https://+919735151074">WhatsApp Us</a>
+                                </div>
+                                <div class="fz-80 has-black-color"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="height:1em" viewBox="0 0 17 17">
+                                        <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"></path>
+                                    </svg></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Spacer-->
+                    <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+                    <section>
+                        <div class="container-xxl">
+                            <!--Divider-->
+                            <div class="ptf-divider" style="--ptf-color: var(--ptf-color-14); --ptf-height: 1px;"></div>
+                        </div>
+                    </section>
+                    <div class="ptf-spacer" style=" --ptf-xxl: 10rem; --ptf-md: 5rem;"></div>
+                    </section>
+
+                </section>
+            </section>
+        </article>
+        </article>
+    </main>
+
+
+
+
+
+
+
+
+{% endblock content %}
